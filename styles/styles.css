@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+}
+
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+    opacity: 0.93;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222729;
+    letter-spacing: .1em;
+}
+
+
+.nav-link:hover {
+    color: #222729;
+    opacity: .9;
+}
+
+.nav-item i {
+    font-size: 20px;
+    color: #222729;
+    margin-left: 20px;
+}
+
+
+.header {
+    padding-top: 30px;
+
+}
+
+
+.header img {
+    max-height: 550px;
+    width: 100%;
+}
+
+
+.header-effect-div {
+    position: relative;
+    overflow: hidden;
+}
+
+.header-effect-div img {
+    transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+}
+
+.header-effect-div:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.header-content {
+    position: absolute;
+    z-index: 5;
+    max-width: 500px;
+    top: 12%;
+    left: 5%;
+    color: #FFF;
+
+}
+
+.header-content p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+    margin: 20px 0 30px 0;
+}
+
+
+
+.services-grid {
+    position: relative;
+    overflow: hidden;
+}
+
+.services-grid:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.services-grid img {
+    max-width: 100%;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+}
+
+
+
+.services .carousel-item {
+    max-height: 500px;
+}
+
+.services .carousel-item img {
+    max-width: 100%;
+}
+
+.team .card {
+    margin-bottom: 10px;
+}
+
+.team .card-body {
+    padding: 10%;
+}
+
+
+.card-body img {
+    max-width: 90%;
+    margin-bottom: 10px;
+}
+
+
+
+.about,
+.team,
+.contact,
+.services {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.contact {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.footer {
+    font-size: 1.5rem;
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.footer ul {
+    display: flex;
+    flex-direction: wrap;
+}
+
+.footer h2 {
+    margin-bottom: 2%;
+}
+
+.footer i,
+.footer a {
+    padding-right: 7px;
+    font-size: 1.1rem;
+}
+
+
+
+@media (max-width: 575px) {}
+
+@media (min-width: 576px) {
+    .footer h2 {
+        margin-bottom: 5%;
+    }
+
+    .footer i,
+    .footer a {
+        margin: 7px;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .services-grid {
+        margin-bottom: 2%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .header-content {
+        top: 20%;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
