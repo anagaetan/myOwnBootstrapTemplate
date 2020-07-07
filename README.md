@@ -1,5 +1,4 @@
-# Front-End Bootstrap project
+# Proyecto Front-End con Bootstrap 
 
-Idea for this project was to create my own responsive Bootstrap template using different Bootstrap components and classes and become familiar with the library.
-
-Project is published here: https://anaggithub.github.io/myOwnBootstrapTemplate/
+La idea de este proyecto fue crear como un template propio usando componentes y clases de Bootstrap, con el objetivo de familiarizarme con la librería y practicar trabajar con la misma.
+Link al proyecto publicado en Github Pages: https://anaggithub.github.io/myOwnBootstrapTemplate/
